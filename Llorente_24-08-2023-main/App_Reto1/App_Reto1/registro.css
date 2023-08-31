@@ -1,0 +1,73 @@
+﻿
+
+#formulario {
+    font-family: sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(130,135,140,1) 0%);
+    color: white;
+    padding: 4px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 5px solid #205ab4;
+    margin-bottom: 5px;
+}
+
+form {
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    box-sizing: border-box; 
+}
+
+label {
+    margin-left: 8px;
+    font-size: 12px;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.caja {
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 2%;
+    border: groove;
+    font-style: italic;
+    box-sizing: border-box;
+}
+    
+    .caja:focus {
+        background-color: #F2F2F2;
+    }
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(42,42,42,1) 0%);
+}
+
+.boton {
+    width: 80%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #205ab4;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border:groove;
+    padding: 3%;
+    border-radius: 20px 10px 20px 10px;
+    box-shadow: 4px 9px 8px -4px rgba(0,0,0,0.75);
+}
+
+    .boton:hover {
+        background-color: #7FACDE;
+    }
+
