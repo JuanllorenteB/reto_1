@@ -18,7 +18,9 @@ namespace App_Reto1
 
         protected void Registrar_Click(object sender, EventArgs e)
         {
-
+            cls_registro objUsuarios = new cls_registro();
+            objUsuarios.registro(codigo.Text,nombre.Text, apellido.Text, contacto.Text, correo.Text, direccion.Text, estado.Text, salario.Text, plazo.Text);
+            lbl_mensaje.Text = objUsuarios.getMensaje();
         }
 
         protected void Consultar_Click(object sender, EventArgs e)

@@ -8,6 +8,6 @@ namespace App_Reto1
 {
     public class cls_conexion
     {
-        public SqlConnection connection = new SqlConnection("Data Source=DESKTOP-EEKCIUN\\SQLEXPRESS;Initial Catalog=dbs_comercio;Integrated Security=True");
+        public SqlConnection connection = new SqlConnection("Data Source=DESKTOP-EEKCIUN\\SQLEXPRESS;Initial Catalog=dbs_simuladorcredito;Integrated Security=True");
     }
 }

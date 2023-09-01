@@ -13,21 +13,21 @@
     <form id="registro" runat="server">
         <div id="formulario">
             <h1>Registro</h1>
-            <asp:TextBox ID="ID" runat="server"  placeholder="ID"  CssClass="caja" required ="true"></asp:TextBox>
+            <asp:TextBox ID="codigo" runat="server"  placeholder="ID"  CssClass="caja" required ="true"></asp:TextBox>
 
-            <asp:TextBox ID="Nombre" runat="server"  placeholder="Nombre"  CssClass="caja"></asp:TextBox>
+            <asp:TextBox ID="nombre" runat="server"  placeholder="Nombre"  CssClass="caja"></asp:TextBox>
 
-            <asp:TextBox ID="Apellido" runat="server" placeholder="Apellido"  CssClass="caja"></asp:TextBox>
+            <asp:TextBox ID="apellido" runat="server" placeholder="Apellido"  CssClass="caja"></asp:TextBox>
 
-            <asp:TextBox ID="Contacto" runat="server" placeholder="Contacto"    CssClass="caja"></asp:TextBox>
+            <asp:TextBox ID="contacto" runat="server" placeholder="Contacto"    CssClass="caja"></asp:TextBox>
 
-            <asp:TextBox ID="Correo" runat="server" placeholder="Correo"   CssClass="caja"></asp:TextBox>
+            <asp:TextBox ID="correo" runat="server" placeholder="Correo"   CssClass="caja"></asp:TextBox>
 
-            <asp:TextBox ID="Direccion" runat="server"  placeholder="Direccion"  CssClass="caja"></asp:TextBox>
+            <asp:TextBox ID="direccion" runat="server"  placeholder="Direccion"  CssClass="caja"></asp:TextBox>
 
-            <asp:TextBox ID="Estado" runat="server"  placeholder="Estado"  CssClass="caja"></asp:TextBox>
+            <asp:TextBox ID="estado" runat="server"  placeholder="Estado"  CssClass="caja"></asp:TextBox>
 
-            <asp:TextBox ID="Salario" runat="server" placeholder="Salario"  CssClass="caja"></asp:TextBox>
+            <asp:TextBox ID="salario" runat="server" placeholder="Salario"  CssClass="caja"></asp:TextBox>
             <asp:DropDownList ID="plazo" runat="server" CssClass="caja">
                 <asp:ListItem Value="6 ">6 Meses</asp:ListItem>
                 <asp:ListItem Value="12 ">12 meses</asp:ListItem>
@@ -40,8 +40,10 @@
             <asp:Button ID="Consultar" runat="server" Text="Consultar" CssClass="boton" OnClick="Consultar_Click" />
 
             <asp:Button ID="Cancelar" runat="server" Text="Cancelar" CssClass="boton" OnClick="Cancelar_Click" />
+            <br />
+              <asp:Label ID="lbl_mensaje" runat="server" Text="" CssClass="mensaje"></asp:Label>
         </div>
-        
+      
      
     </form>
 </body>
