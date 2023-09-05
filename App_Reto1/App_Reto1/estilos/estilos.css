@@ -1,0 +1,109 @@
+﻿/* Estilos para el formulario */
+#container {
+    font-family: sans-serif;
+    background: grey;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    border-bottom: 5px solid #205ab4;
+    margin-bottom: 5px;
+}
+
+/* Estilos para el formulario en sí */
+form {
+    background-color: grey;
+    margin: 10px auto;
+    border-radius: 19px;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
+}
+
+/* Estilos para las etiquetas de texto */
+.caja label {
+    margin-left: 8px;
+    font-size: 12px;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+/* Estilos para los campos de entrada */
+.caja input[type="text"] {
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 2%;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-style: italic;
+}
+
+    /* Estilos para cuando se hace foco en un campo de entrada */
+    .caja input[type="text"]:focus {
+        background-color: #F2F2F2;
+    }
+
+/* Estilos generales del cuerpo de la página */
+body {
+    background-color: lightgray;
+}
+
+/* Estilos para el botón */
+.boton {
+    width: 94%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #205ab4;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border: none;
+    padding: 3%;
+    border-radius: 20px 10px 20px 10px;
+    box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
+}
+
+    .boton:hover {
+        background-color: #7FACDE;
+    }
+
+/* Estilos para el botón Cancelar */
+.boton-cancelar {
+    width: 94%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #ccc;
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border: none;
+    padding: 3%;
+    border-radius: 20px 10px 20px 10px;
+    box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
+}
+
+.plazo {
+    width: 94%;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border: none;
+    padding: 3%;
+    border-radius: 20px 10px 20px 10px;
+    box-shadow: 4px 9px 8px -4px rgba(0, 0, 0, 0.75);
+}

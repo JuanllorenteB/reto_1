@@ -5,7 +5,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Formulario de Registro de Usuarios</title>
-    <link rel="stylesheet" type="text/css" href="estilos/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
